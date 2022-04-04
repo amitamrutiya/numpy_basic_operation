@@ -1,0 +1,60 @@
+import numpy as np
+
+arr1 = np.array([10, 11, 12, 15])
+arr2 = np.array([20, 21, 22, 25])
+
+print('-----------------------------------------------------')
+print("Addition of an array :")
+newarr = np.add(arr1, arr2)
+print(newarr)
+print("Subraction of an array :")
+newarr = np.subtract(arr1, arr2)
+print(newarr)
+print("Multiplication of an array :")
+newarr = np.multiply(arr1, arr2)
+print(newarr)
+print("Division of an array :")
+newarr = np.divide(arr1, arr2)
+print(newarr)
+print("Power of an array :")
+newarr = np.power(arr1, arr2)
+print(newarr)
+print("Modulation of an array :")
+newarr = np.mod(arr1, arr2)
+print(newarr)
+
+print('-----------------------------------------------------')
+print("Floor Value :")
+arr = np.floor([-3.1666, 3.6667])
+print(arr)
+print("Ceil Value :")
+arr = np.ceil([-3.1666, 3.6667])
+print(arr)
+
+print('-----------------------------------------------------')
+arr = np.arange(5, 8)
+print("Log of the number :")
+print(np.log2(arr))
+
+print('-----------------------------------------------------')
+print("Sum of a same array :")
+newarr = np.cumsum(arr)
+print(newarr)
+print("Product of a same array :")
+newarr = np.cumprod(arr)
+print(newarr)
+print("Difference of same array :")
+newarr = np.diff(arr)
+print(newarr)
+
+print('------------------------------------------------------')
+num1 = 4
+num2 = 6
+
+print("LCM of two value :" )
+x = np.lcm(num1, num2)
+print(x)
+
+print("GCD of two value :")
+x = np.gcd(num1, num2)
+print(x)

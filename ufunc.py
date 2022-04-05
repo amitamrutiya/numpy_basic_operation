@@ -32,7 +32,6 @@ arr = np.ceil([-3.1666, 3.6667])          # maximum value
 print(arr)                                # [-3.  4.]
 
 print('-----------------------------------------------------')
-arr = np.arange(5, 8)
 print("Log of the number :")
 print(np.log2(arr))                       # [2.3219 2.5848  2.8072]
 
